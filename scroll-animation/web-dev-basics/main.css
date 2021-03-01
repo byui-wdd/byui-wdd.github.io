@@ -45,10 +45,11 @@ body {
     grid-row: 2/3;
 }
 .devices-img {
-    width: 90%;
+    width: 60%;
 }
 .access-img {
-    width: 50%;
+    width: 30%;
+    padding-bottom: 50px;
 }
 .hr3, .hr5 {
     grid-column: 1/6;
