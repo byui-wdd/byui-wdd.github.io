@@ -64,6 +64,9 @@ body {
     grid-row: 2/4;
     width: 200px;
 }
+.front-end-img {
+    justify-self: end;
+}
 .server-img, .back-end-img {
     grid-column: 5/6;
     grid-row: 2/4;
@@ -194,4 +197,7 @@ h1 {
     .laptop-img, .www-img, .server-img, .hosting-img {
         width: 80%;
     }  
+    .front-end-content, .back-end-content {
+        font-size: .8em;
+    }
 }
