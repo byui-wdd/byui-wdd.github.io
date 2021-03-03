@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.main-scroll {
+    background-image: url(images/path.png);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-color: #e9e0d0;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    height: 100vh;
+   
+}
+
+/* html, body {
+    height: 100%;
+    /* background-color: #e9e0d0; */
+/* } */ 
+
+
+
+h3 {
+    line-height: 1.7em;
+    margin-bottom: 75px;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+h3.wounded-text {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+.scroll-box1 {
+    position: fixed;
+    
+}
+/* .scroll-box1 .wounded-text {
+    position: relative;
+    top: 350px;
+} */
+
+
+@media screen and (max-width: 750px) {
+    .main-scroll {
+        background-image: url(images/pathsm.png);
+        background-repeat: no-repeat; 
+        background-size: contain;
+        background-color: #e9e0d0;
+        background-attachment: fixed;
+        background-position: center center;
+    
+    }
+    h3.wounded-text {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    h3 {
+    line-height: 1.7em;
+    margin-bottom: 75px;
+    padding: 20px;
+    font-size: .9em;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    h3 {
+        line-height: 1.7em;
+        margin-bottom: 75px;
+    
+        font-size: 1em;
+        }
+    h3.wounded-text {
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+    }
+    
+}
